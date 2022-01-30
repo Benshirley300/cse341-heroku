@@ -21,8 +21,6 @@ app.use(cors(corsOptions));
 const options = {
     useUnifiedTopology: true,
     useNewUrlParser: true,
-    useCreateIndex: true,
-    useFindAndModify: false,
     family: 4
 };
 
